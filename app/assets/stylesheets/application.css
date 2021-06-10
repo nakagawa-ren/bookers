@@ -24,13 +24,10 @@
 
 #notice {
   color: green;
-}
-
-p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 th {
@@ -43,14 +40,15 @@ td {
     padding-right: 5px;
 }
 
-a {
-    color: #000;
-}
-
 div.field, div.action {
     margin-bottom: 10px;
 }
 
+
 label {
     display: block;
+}
+
+.inline {
+  display: inline;
 }

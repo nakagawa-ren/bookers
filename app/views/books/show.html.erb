@@ -1,15 +1,13 @@
 <main>
-      <h3>
-        <&= @book.title %>
-      </h3>
-      <div>
-        <p>
-          <%= @book.created_at %>
-        </p>
-      </div>
-      <p>
+      <p class="top">
+        <strong>Titile:</strong>
+        <%= @book.title %>
+      </p>
+      <p class="top">
+        <strong>Body:</strong>
         <%= @book.body %>
       </p>
-      <%= link_to "Edit",edit_book_path(@book) %>
-      <%= link_to "Back",book_path(@book) %>
+      <p class="link inline"><%= link_to "Edit",edit_book_path(@book) %></p>
+      |
+      <p class="link inline"><%= link_to "Back",books_path %></p>
 </main>

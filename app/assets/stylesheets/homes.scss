@@ -26,33 +26,27 @@ strong {
 
 
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-p, ol, ul, td {
+.top{
   font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
     margin: 33px;
+    display: block;
 }
+
+.link {
+  color:#000;
+}
+
+.link :visited {
+  color:#666;
+}
+
 .link :hover {
   color:#fff;
   background-color:#000;
-
-a:-webkit-any-link {
-  color:webkit link;
-  cursor:printer;
-  text-decoration:underline;
 }
 
-
-}
-
-a {
-  color:#000;
+.inline {
+  display: inline;
 }

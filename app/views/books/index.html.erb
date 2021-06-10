@@ -18,13 +18,13 @@
           <td><%= book.title %></td>
           <td><%= book.body %></td>
           <td>
-            <a href="#">Show</a>
+            <p class="link"><%= link_to "Show", book_path(book.id)%></p>
           </td>
           <td>
-            <a href="#">Edit</a>
+            <p class="link"><%= link_to "Edit", edit_book_path(book.id) %></p>
           </td>
           <td>
-            <a href="#">Destroy</a>
+            <p class="link"><%= link_to "Destroy",destroy_book_path(book.id) ,method: :delete, "data-confirm" => "Are you sure?"%></p>
           </td>
         </tr>
       </tbody>
